@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-class AppColors  {
+class AppColors {
   AppColors._();
 
   static const Color primaryColorYellow = Color(0xffFFF700);

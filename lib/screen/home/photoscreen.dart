@@ -11,7 +11,7 @@ import 'package:path_provider/path_provider.dart';
 import '../../utils/appcolor.dart';
 import '../../widget/text_view.dart';
 
-class PhotoDetailsScreen extends StatelessWidget  {
+class PhotoDetailsScreen extends StatelessWidget {
   final Map photo;
 
   PhotoDetailsScreen({required this.photo});
