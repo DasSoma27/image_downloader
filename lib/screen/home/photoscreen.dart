@@ -6,12 +6,10 @@ import 'package:dio/dio.dart';
 import 'package:get/get.dart';
 import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:path_provider/path_provider.dart';
-
 import '../../utils/appcolor.dart';
 import '../../widget/text_view.dart';
 
-class PhotoDetailsScreen extends StatelessWidget {
+class PhotoDetailsScreen extends StatelessWidget  {
   final Map photo;
 
   PhotoDetailsScreen({required this.photo});
